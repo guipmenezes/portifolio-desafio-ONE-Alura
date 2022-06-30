@@ -1,0 +1,24 @@
+.menu__navegacao {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.menu__navegacao___link {
+    color: #888888;
+}
+
+.menu__navegacao___link:last-child {
+    color: #363636;
+    margin-right: 2rem;
+}
+
+.menu__navegacao___link:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#menu__email {
+    font-weight: 700;
+}

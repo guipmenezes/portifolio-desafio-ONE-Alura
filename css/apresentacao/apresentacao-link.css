@@ -1,0 +1,21 @@
+.apresentacao__link___container {
+    display: flex;
+    margin-top: 2rem;
+    gap: 4rem;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.apresentacao__link {
+    color: #404040;
+    padding: 8px;
+    transition: 1s;
+}
+
+.apresentacao__link:hover {
+    color: #f8f8f8;
+    cursor: pointer;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    background-color: #343434;
+}
