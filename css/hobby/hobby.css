@@ -1,0 +1,39 @@
+.hobby {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.hobby__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.hobby__box {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+}
+
+.hobby__titulo {
+    color: white;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hobby__img {
+    height: 10vh;
+    margin-bottom: 2rem;
+    width: 5vw;
+}

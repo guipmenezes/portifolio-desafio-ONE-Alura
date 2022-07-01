@@ -1,0 +1,48 @@
+.formacao {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.formacao__titulo {
+    color: #404040;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.formacao__box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__img___container {
+    background-color: white;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacao__img {
+    width: 12vw;
+    height: 12vh;
+}
+
+.formacao__sub {
+    margin-top: 1rem;
+}
+
+.formacao__text {
+    font-weight: 400;
+}

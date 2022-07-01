@@ -5,18 +5,19 @@
 }
 
 .menu__navegacao___link {
-    color: #888888;
+    color: white;
 }
 
 .menu__navegacao___link:last-child {
-    color: #363636;
+    color: white;
     margin-right: 2rem;
 }
 
 .menu__navegacao___link:hover {
-    color: black;
-    text-decoration: underline;
-    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: white;
+    color: black
 }
 
 #menu__email {

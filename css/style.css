@@ -1,4 +1,6 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
+    background-image: url('../img/silas-baisch.jpg');
+    background-size: cover;
 }

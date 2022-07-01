@@ -6,11 +6,10 @@
     height: 10vh;
     align-items: center;
     justify-content: space-between;
-    background-color: #f8f8f8;
 }
 
 .menu__titulo {
-    color: #030c74;
+    color: white;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 2rem;
     font-weight: 700;
