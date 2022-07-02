@@ -1,6 +1,15 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
-    background-image: url('../img/silas-baisch.jpg');
+    background-image: url('../img/adrien-olichon.jpg');
     background-size: cover;
+}
+
+footer {
+    background-color: #fefefe;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }

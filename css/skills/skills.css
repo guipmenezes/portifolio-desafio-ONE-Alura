@@ -7,7 +7,7 @@
 }
 
 .skills__titulo {
-    color: white;
+    color: #303030;
     display: flex;
     justify-content: center;
     padding-top: 2rem;
@@ -29,13 +29,17 @@
 .skills__box {
     display: flex;
     flex-direction: column;
-    background: #fefefe;
+    background: none;
     padding: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 15rem;
     height: 15rem;
+}
+
+.skills__box:hover {
+    background: #fefefe;
 }
 
 

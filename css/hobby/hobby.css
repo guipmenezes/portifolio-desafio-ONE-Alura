@@ -16,7 +16,7 @@
 
 .hobby__box {
     align-items: center;
-    background: white;
+    background: none;
     display: flex;
     flex-direction: column;
     height: 15rem;
@@ -25,8 +25,12 @@
     width: 20rem;
 }
 
+.hobby__box:hover {
+    background: #fefefe;
+}
+
 .hobby__titulo {
-    color: white;
+    color: #303030;
     padding-top: 2rem;
     text-align: center;
     font-size: 30px;

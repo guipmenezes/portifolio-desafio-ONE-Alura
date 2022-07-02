@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/skills/skills.css">
     <link rel="stylesheet" href="css/hobby/hobby.css">
     <link rel="stylesheet" href="css/formacao/formacao.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="css/contato/contato.css">
     <title>Portifólio Guilherme</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
                 <a href="#secao__skills" class="menu__navegacao___link" id="menu__skills">Skills</a>
                 <a href="#secao__hobby" class="menu__navegacao___link" id="menu__hobbies">Hobbies</a>
                 <a href="#secao__formacao" class="menu__navegacao___link" id="menu__formacao">Formação</a>
-                <a href="#" class="menu__navegacao___link" id="menu__projetos">Projetos</a>
+                <a href="#secao__projetos" class="menu__navegacao___link" id="menu__projetos">Projetos</a>
                 <a href="#" class="menu__navegacao___link" id="menu__email">guimenezesunb@gmail.com</a>
             </nav>
         </div>
@@ -133,14 +135,53 @@
                     </div>
                 </div>
             </section>
-            <div class="experiecia-projetos">Experiencia com programacao</div>
-            <div class="formulario">Formulario de contato</div>
+            <section class="projetos" id="secao__projetos">
+                <div class="projetos__container">
+                    <h2 class="projetos__titulo">Experiência Profissional</h2>
+                    <div class="projetos__box" id="projeto__decodificador">
+                        <img class="projetos__img" src="img/print-codificador.png" alt="Imagem do site decodificador criado por mim">
+                        <div class="projetos__decodificador__content">
+                            <h3 class="projetos__text">Decodificador de Texto</h3>
+                            <h4 class="projetos__sub">Challenge Alura + Oracle</h4>
+                            <div class="projetos__botoes">
+                                <a href="#"><button class="projetos__btnum">Repositório</button></a>
+                                <a href="#"><button class="projeto__btndois">Demo</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projetos__box" id="projeto__forca">
+                        <img class="projetos__img" src="img/jogo-da forca-tela-de-game.png" alt="Imagem do jogo da forca criado por mim">
+                        <div class="projetos__forca__content">
+                            <h3 class="projetos__text">Jogo da Forca criado com HTML, CSS e JS</h3>
+                            <h4 class="projetos__sub">Challenge Alura + Oracle</h4>
+                            <div class="projetos__botoes">
+                                <a href="#"><button class="projetos__btnum">Repositório</button></a>
+                                <a href="#"><button class="projeto__btndois">Demo</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="formulario">
+                <div class="formulario__container">
+                    <div class="formulario__titulo">
+                        <h2 class="formulario__text">Contato</h2>
+                        <h3 class="formulario__sub">Deseja entrar em contato comigo?</h3>
+                        <h3 class="formulario__sub">Preencha o formulário e eu entrarei em contato o mais rápido possível.</h3>
+                    </div>
+                    <div class="formulario__input">
+                        <input class="formulario__input__campo" type="text" placeholder="Nome">
+                        <input class="formulario__input__campo" type="email" placeholder="Email">
+                        <input class="formulario__input__campo" type="text" placeholder="Assunto">
+                        <input class="formulario__input__campo" id="formulario__mensagem" type="text" placeholder="Mensagem">
+                    </div>
+                    <button class="formulario__button">Enviar Mensagem</button>
+                </div>
+            </section>
         </body>
     </main>
     <footer>
-        <p>&copy; Feito por Guilherme Menezes, 2022</p>
-        <p>Background por: Silas Baisch</p>
-        <p>Fundo da apresentação por: Manik Roy</p>
+        <p>&copy; Feito por Guilherme Menezes, 2022 / Background por: Adrien Olichon / Fundo da apresentação por: Manik Roy</p>
     </footer>
 </body>
 </html>
