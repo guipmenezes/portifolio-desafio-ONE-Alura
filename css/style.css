@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+.skills, .hobby, .formacao {
+    background-color:#fefefe;
+}
+
 footer {
     background-color: #fefefe;
     height: 5vh;

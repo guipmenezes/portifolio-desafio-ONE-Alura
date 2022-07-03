@@ -16,8 +16,8 @@
 .menu__navegacao___link:hover {
     text-transform: uppercase;
     font-weight: 700;
-    background: white;
-    color: black
+    background: #2A7AE4;
+    color: white;
 }
 
 #menu__email {

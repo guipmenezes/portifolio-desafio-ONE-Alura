@@ -39,9 +39,8 @@
 }
 
 .skills__box:hover {
-    background: #fefefe;
+    background: lightgrey;
 }
-
 
 .skills__img {
     width: 4vw;
