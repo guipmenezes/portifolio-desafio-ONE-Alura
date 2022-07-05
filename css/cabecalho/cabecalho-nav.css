@@ -1,7 +1,6 @@
 .menu__navegacao {
     display: flex;
     justify-content: space-between;
-    width: 35%;
 }
 
 .menu__navegacao___link {
