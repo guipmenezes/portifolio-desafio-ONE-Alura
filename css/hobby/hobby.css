@@ -16,7 +16,7 @@
 
 .hobby__box {
     align-items: center;
-    background: none;
+    background: #fefefe;
     display: flex;
     flex-direction: column;
     height: 15rem;
