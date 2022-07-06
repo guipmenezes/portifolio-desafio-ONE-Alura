@@ -1,15 +1,40 @@
 @media screen and (min-width: 0) {
+    .hobby__container {
+        flex-wrap: wrap;
+        margin: 0 0;
+        justify-content: center;
+        gap: 1rem;
+    }
 
+    .hobby__box {
+        width: 10rem;
+    }
+
+    .hobby__img {
+        width: 20vw;
+        padding: .5rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
-
+    
+    .hobby__container {
+        gap: 4rem;
+    }
+    
+    .hobby__img {
+        width: 10vw;
+    }
 }
 
 @media screen and (min-width: 992px) {
-
+    .hobby__img {
+        width: 10vw;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    
+    .hobby__img {
+        width: 5vw;
+    }
 }
