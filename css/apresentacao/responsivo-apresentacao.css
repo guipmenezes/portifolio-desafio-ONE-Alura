@@ -120,13 +120,18 @@
         font-size: 35px;
     }
 
+    .menu__imagem {
+        width: 20vw;
+        height: 35vh;
+    }
+
     @keyframes typewriter {
         from {
-            width: 70%;
+            width: 67%;
         }
     
         to {
-            width: 105%;
+            width: 95%;
         }
     }
 }
