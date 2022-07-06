@@ -1,34 +1,16 @@
 .apresentacao__texto {
     width: 70%;
-    padding: 2rem;
 }
 
 .apresentacao__titulo {
-    padding: 1rem;
-    font-size: 35px;
-    color: #303030;
-    white-space: nowrap;
-    overflow: hidden;
+    color: #303030;  
     font-weight: 700;
-    animation: typewriter 2s steps(15) infinite alternate, blink 800ms steps(15) infinite normal;
-    border-right: 3px solid black;
 }
 
 .apresentacao__subtitulo {
-    font-weight: 400;
-    padding: 1rem;
     color: #404040;
+    font-weight: 400;
     
-}
-
-@keyframes typewriter {
-    from {
-        width: 75%;
-    }
-
-    to {
-        width: 105%;
-    }
 }
 
 @keyframes blink {

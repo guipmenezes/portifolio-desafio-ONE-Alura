@@ -1,19 +1,132 @@
 @media screen and (min-width: 0) {
     .apresentacao {
         background: fixed cover;
+        width: 100vw;
+        height: 70vh;
     }
 
+    .apresentacao__container {
+        flex-direction: column-reverse;
+        align-items: baseline;
+        justify-content: center;
+        padding: 0 0;
+    }
+
+    .menu__imagem {
+        display: flex;
+        height: 25vh;
+        width: 40vw;
+        align-items: center;
+        margin: 0 0;
+    }
+
+    .apresentacao__titulo {
+        font-size: 18px;
+        padding: 0 0;
+        margin-bottom: 1rem;
+        animation: none;
+        border-right: none;
+        text-align: center;
+    }
+
+    .apresentacao__subtitulo {
+        font-size: 15px;
+        padding: 0 0;
+        text-align: justify;
+    }
+
+    .apresentacao__link___container {
+        font-size: 13px;
+        gap: .5rem;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
+    .menu__imagem {
+        display: flex;
+        height: 25vh;
+        width: 25vw;
+        margin-top: 1rem;
+    }
+
+    .apresentacao__titulo {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .apresentacao__link___container {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
+    .apresentacao__container {
+        flex-direction: row;
+    }
+    
+    .menu__imagem {
+        width: 15vw;
+        height: 20vh;
+        margin-right: 1rem;
+    }
 
+    .apresentacao__titulo {
+        text-align: start;
+    }
 }
 
 @media screen and (min-width: 1200px) {
+    .menu__imagem {
+        width: 20vw;
+        height: 30vh;
+    }
+
+    .apresentacao__titulo {
+        font-size: 27px;
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 2s steps(15) infinite alternate, blink 800ms steps(15) infinite normal;
+        border-right: 3px solid black;
+    }
+
+    .apresentacao__subtitulo {
+        font-size: 23px;
+    }
+
+    .apresentacao__link___container {
+        font-size: 20px;
+        gap: 2rem;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 70%;
+        }
+    
+        to {
+            width: 100%;
+        }
+    }
     
 }
 
+@media screen and (min-width: 1800px) {
+    .apresentacao__titulo {
+        font-size: 35px;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 70%;
+        }
+    
+        to {
+            width: 105%;
+        }
+    }
+}

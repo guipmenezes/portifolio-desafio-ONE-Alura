@@ -57,6 +57,10 @@
         font-size: 25px;
     }
 
+    .menu__navegacao {
+        font-size: 15px;
+        gap: 1rem;
+    }
 
 
 }
