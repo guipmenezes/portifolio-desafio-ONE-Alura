@@ -30,6 +30,7 @@
 
     .menu__navegacao  {
         justify-content: right;
+        margin-right: 1rem;
     }
 }
 
