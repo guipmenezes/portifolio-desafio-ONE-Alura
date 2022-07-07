@@ -1,0 +1,25 @@
+@media screen and (min-width: 0) {
+    .formulario__sub {
+        font-size: 14px;
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .formulario__input__campo {
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario__sub {
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .formulario__input__campo {
+        width: 50vw;
+    }
+}

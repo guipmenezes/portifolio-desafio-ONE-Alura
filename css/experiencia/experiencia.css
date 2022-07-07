@@ -10,14 +10,6 @@
     padding: 2rem;
 }
 
-.projetos__img {
-    width: 30%;
-    transition: 1.5s;
-}
-
-.projetos__img:hover {
-    width: 50%;
-}
 
 .projetos__decodificador__content {
     padding: 1rem;
