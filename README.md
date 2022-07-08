@@ -11,3 +11,6 @@
 <p>&#128992; HTML</p>
 <p>&#128309; CSS</p>
 <p>&#128993; JavaScript</p>
+
+#### Third Badge:
+<img width="400em" height="400em" align="center" src="img/badge-sprint-frontend.png"
