@@ -180,22 +180,26 @@
                     <div class="formulario__input">
                         <div class="input-container">
                             <input class="formulario__input__campo" id="nome" type="text" placeholder="Nome" data-tipo="nome" maxlength="50" required>
-                            <span></span>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="input-container">
                             <input class="formulario__input__campo" type="email" data-tipo="email" placeholder="Email" required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="input-container">
                             <input class="formulario__input__campo" type="text" placeholder="Assunto" maxlength="50" data-tipo="assunto" required> 
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="input-container">
                             <textarea name="mensagem" id="mensagem" cols="120" rows="10" placeholder="Mensagem" maxlength="300" data-tipo="mensagem" required></textarea>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                     </div>
-                    <button class="formulario__button">Enviar Mensagem</button>
+                    <button class="formulario__button" disabled>Enviar Mensagem</button>
                 </div>
             </section>
         </body>
+        <script src="./js/app.js" type="module"></script>
     </main>
     <footer>
         <p>&copy; Feito por Guilherme Menezes, 2022 / Background por: Adrien Olichon / Fundo da apresentação por: Manik Roy</p>
