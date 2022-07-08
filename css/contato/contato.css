@@ -43,6 +43,16 @@
     font-weight: 600;
 }
 
+#mensagem {
+    width: 50vw;
+}
+
+#mensagem::placeholder {
+    color: #404040;
+    font-weight: 600;
+    font-size: 14px;
+}
+
 #formulario__mensagem {
     height: 15vh;
 }

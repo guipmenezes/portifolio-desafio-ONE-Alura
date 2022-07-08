@@ -178,10 +178,10 @@
                         <h3 class="formulario__sub">Preencha o formulário ou mande um email para guimenezesunb@gmail.com e eu entrarei em contato o mais rápido possível.</h3>
                     </div>
                     <div class="formulario__input">
-                        <input class="formulario__input__campo" type="text" placeholder="Nome">
-                        <input class="formulario__input__campo" type="email" placeholder="Email">
-                        <input class="formulario__input__campo" type="text" placeholder="Assunto">
-                        <input class="formulario__input__campo" id="formulario__mensagem" type="text" placeholder="Mensagem">
+                        <input class="formulario__input__campo" id="nome" type="text" placeholder="Nome" title="Por favor, digite um nome válido de no máximo 50 caracteres" maxlength="50" required>
+                        <input class="formulario__input__campo" type="email" title="Por favor digite um email válido, exemplo: text@texto.com" placeholder="Email" required>
+                        <input class="formulario__input__campo" type="text" placeholder="Assunto" maxlength="50" title="Por favor, digite um assunto de no máximo 50 caracteres" required>
+                        <textarea name="mensagem" id="mensagem" cols="120" rows="10" placeholder="Mensagem" maxlength="300" title="Por favor, digite uma mensagem válida de no máximo 300 caracteres" required></textarea>
                     </div>
                     <button class="formulario__button">Enviar Mensagem</button>
                 </div>
