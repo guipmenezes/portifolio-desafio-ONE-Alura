@@ -13,4 +13,4 @@
 <p>&#128993; JavaScript</p>
 
 #### Third Badge:
-<img width="400em" height="400em" align="center" src="img/badge-sprint-frontend.png"
+<img width="400em" height="400em" align="center" src="img/badge-sprint-frontend.png"/>
